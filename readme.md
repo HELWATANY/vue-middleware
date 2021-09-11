@@ -12,7 +12,7 @@
 ### Installation
 
 ```bash
-$ npm i @grafikri/vue-middleware
+$ npm i vue-router-middleware-system
 ```
 
 ### Usage in 3 steps
@@ -25,7 +25,7 @@ You can also inject any object to a module to take it in middleware method(recom
 // main.js
 
 import router from "./router"
-import middleware from "@grafikri/vue-middleware"
+import middleware from "vue-router-middleware-system"
 
 router.beforeEach(middleware())
 ```
