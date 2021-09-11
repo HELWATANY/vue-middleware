@@ -1,6 +1,6 @@
 {
   "name": "vue-router-middleware-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware for Vue",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
