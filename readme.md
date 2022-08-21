@@ -2,6 +2,8 @@
 
 ## Main features
 
+> This is a fork from [vue-middleware](https://github.com/grafikri/vue-middleware) to apply asynchronous call for middleware functions
+
 - Injecting custom object for middlewares
 - Adjusting multiple middleware rules
 - Easy implementation
