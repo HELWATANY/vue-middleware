@@ -1,10 +1,10 @@
 {
-  "name": "@grafikri/vue-middleware",
-  "version": "1.0.0",
+  "name": "vue-router-middleware-system",
+  "version": "1.0.1",
   "description": "Middleware for Vue",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
-  "author": "Serhan Coşkun",
+  "author": "Haithm EL-Watany",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/grafikri/vue-middleware.git"
+    "url": "git+https://github.com/HELWATANY/vue-middleware.git"
   },
   "bugs": {
-    "url": "https://github.com/grafikri/vue-middleware/issues"
+    "url": "https://github.com/HELWATANY/vue-middleware.git/issues"
   },
   "files": [
     "dist",
@@ -44,5 +44,6 @@
     "router",
     "route"
   ],
-  "license": "ISC"
+  "license": "MIT",
+  "homepage": "https://github.com/HELWATANY/vue-middleware#readme"
 }

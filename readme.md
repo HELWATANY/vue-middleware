@@ -1,9 +1,8 @@
-[![Build Status](https://travis-ci.org/grafikri/vue-middleware.svg?branch=master)](https://travis-ci.org/grafikri/vue-middleware)
-[![install size](https://packagephobia.com/badge?p=@grafikri/vue-middleware)](https://packagephobia.com/result?p=@grafikri/vue-middleware)
-
 # Middleware for Vue
 
 ## Main features
+
+> This is a fork from [vue-middleware](https://github.com/grafikri/vue-middleware) to apply asynchronous call for middleware functions
 
 - Injecting custom object for middlewares
 - Adjusting multiple middleware rules
@@ -12,7 +11,7 @@
 ### Installation
 
 ```bash
-$ npm i @grafikri/vue-middleware
+$ npm i vue-router-middleware-system
 ```
 
 ### Usage in 3 steps
@@ -25,7 +24,7 @@ You can also inject any object to a module to take it in middleware method(recom
 // main.js
 
 import router from "./router"
-import middleware from "@grafikri/vue-middleware"
+import middleware from "vue-router-middleware-system"
 
 router.beforeEach(middleware())
 ```
